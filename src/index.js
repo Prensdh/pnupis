@@ -2,11 +2,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const express = require('express');
-const dotenv = require('dotenv');
 const emailController = require('./controllers/emailController');
-
-// Carrega as variáveis de ambiente
-dotenv.config();
 
 const app = express();
 
